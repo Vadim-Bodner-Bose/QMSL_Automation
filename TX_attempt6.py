@@ -27,11 +27,13 @@ targetType = ctypes.c_uint8(1)
 #targetType = ctypes.create_string_buffer(b"1")
 lib.QLIB_SetTargetType(targetType)
 
-#iWait_ms = ctypes.c_ulong(25)
+iWait_ms = ctypes.c_ulong(5000)
 iComPort = ctypes.c_uint(4)
+
 #to double check that connection with com_port_auto returns the same result (handle) as the one with a known port
 com_port_auto=ctypes.c_int(0xFFFF)
-handle = lib.QLIB_ConnectServer(iComPort)
+# handle = lib.QLIB_ConnectServer(iComPort)
+handle = lib.QLIB_ConnectServerWithWait(iComPort, iWait_ms)
 gResourceContext = HANDLE(handle)
 time.sleep(3)
 print('wait for connection 5s')

@@ -117,6 +117,7 @@ lib.QLIB_FTM_WLAN_Atheros_LoadDUT(gResourceContext, dllID, bin_file,iNVMem, chip
 
 
 # ################################################################################################
+
 #stop tx
 OP_TX = ctypes.c_uint(10)
 lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP_TX)
@@ -143,6 +144,7 @@ lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP2_SYNC)
 # lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKphyId, pDphyId)
 addParam(gResourceContext, b'phyId', args.phyId)
 lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
+
 ##################################################################################################
 #channel
 # pKchannel = ctypes.create_string_buffer(b'channel')

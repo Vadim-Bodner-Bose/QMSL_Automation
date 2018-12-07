@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172f52c1-3ec2-4739-b77d-30e63ba175fe" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/TX_attempt7_with_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TX_attempt7_with_method_with_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QMSL_TX_diag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QMSL_TX_diag.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
+>>>>>>> 4b6bad6aefc19588c2ace4a30a74f201c01fbe20
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,43 +24,114 @@
     <session id="1237137639">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="25" />
+=======
+<<<<<<< HEAD
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.3" value="18" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="27" />
+=======
+          <entry key="project.closed" value="24" />
+>>>>>>> 4b6bad6aefc19588c2ace4a30a74f201c01fbe20
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="17" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="1" />
+<<<<<<< HEAD
           <entry key="project.opened" value="26" />
+=======
+          <entry key="project.opened" value="24" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
+>>>>>>> 4b6bad6aefc19588c2ace4a30a74f201c01fbe20
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
+          <entry key="Python Console" value="1815" />
+          <entry key="py" value="1022" />
+=======
           <entry key="Python Console" value="1957" />
           <entry key="py" value="2963" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
           <entry key="txt" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="105" />
+<<<<<<< HEAD
+          <entry key="Python" value="2837" />
+=======
           <entry key="Python" value="4920" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
+          <entry key="py" value="44" />
+=======
           <entry key="py" value="15" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
+          <entry key="Python" value="44" />
+=======
           <entry key="Python" value="15" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf />
+=======
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CCK_24_Panel_State.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="142" column="8" lean-forward="true" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT20_24_Panel_State.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HT40_24_Panel_State.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
+>>>>>>> 4b6bad6aefc19588c2ace4a30a74f201c01fbe20
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,7 +151,34 @@
         <option value="$PROJECT_DIR$/TX_attempt3.py" />
         <option value="$PROJECT_DIR$/TX_attempt4.py" />
         <option value="$PROJECT_DIR$/TX_attempt5.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/10dBm_5_Panel_State.py" />
+        <option value="$PROJECT_DIR$/10dBm_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/15dBm_5_Panel_State.py" />
+        <option value="$PROJECT_DIR$/15dBm_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/CCK_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/CH1_Panel_State.py" />
+        <option value="$PROJECT_DIR$/CH11_Panel_State.py" />
+        <option value="$PROJECT_DIR$/CH36_Panel_State.py" />
+        <option value="$PROJECT_DIR$/CH100_Panel_State.py" />
+        <option value="$PROJECT_DIR$/Chain0_5_Panel_State.py" />
+        <option value="$PROJECT_DIR$/Chain0_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/Chain01_5_Panel_State.py" />
+        <option value="$PROJECT_DIR$/Chain01_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/Chain1_5_Panel_State.py" />
+        <option value="$PROJECT_DIR$/Chain1_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/HT20_5_Panel_State.py" />
+        <option value="$PROJECT_DIR$/HT20_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/HT20MCS0_5_Panel_State.py" />
+        <option value="$PROJECT_DIR$/HT20MCS0_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/HT20MCS7_5_Panel_State.py" />
+        <option value="$PROJECT_DIR$/HT20MCS7_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/HT40_24_Panel_State.py" />
+        <option value="$PROJECT_DIR$/VHT80_5_Panel_State.py" />
+        <option value="$PROJECT_DIR$/HT40_5_Panel_State.py" />
+=======
         <option value="$PROJECT_DIR$/FTM_TLV2_AddParam.py" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         <option value="$PROJECT_DIR$/TX_attempt6.py" />
         <option value="$PROJECT_DIR$/TX_attempt7_with_method.py" />
         <option value="$PROJECT_DIR$/ArgParse.py" />
@@ -79,10 +187,24 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="2228" />
     <option name="y" value="-32" />
     <option name="width" value="1552" />
     <option name="height" value="848" />
+=======
+<<<<<<< HEAD
+    <option name="x" value="2198" />
+    <option name="y" value="6" />
+    <option name="width" value="933" />
+    <option name="height" value="848" />
+=======
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1060" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
+>>>>>>> 4b6bad6aefc19588c2ace4a30a74f201c01fbe20
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,8 +247,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.HT40_24_Panel_State">
+    <configuration name="CCK_24_Panel_State" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
   <component name="RunManager" selected="Python.TX_attempt7_with_method_with_args">
     <configuration name="ArgParse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <module name="QMSL_TX_diag" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,8 +265,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCK_24_Panel_State.py" />
+      <option name="PARAMETERS" value="" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ArgParse.py" />
       <option name="PARAMETERS" value="0 0 2437 3 5 0 10 0 17 0 0 0 0 50 200 0 3 0 0 0 4 28" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -147,7 +279,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="HT20_24_Panel_State" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
     <configuration name="TX_attempt5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <module name="QMSL_TX_diag" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,7 +295,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HT20_24_Panel_State.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TX_attempt5.py" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +308,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="HT40_24_Panel_State" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
     <configuration name="TX_attempt6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <module name="QMSL_TX_diag" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +324,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HT40_24_Panel_State.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TX_attempt6.py" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,6 +382,17 @@
     <list>
       <item itemvalue="Python.TX_attempt5" />
       <item itemvalue="Python.TX_attempt6" />
+<<<<<<< HEAD
+      <item itemvalue="Python.CCK_24_Panel_State" />
+      <item itemvalue="Python.HT20_24_Panel_State" />
+      <item itemvalue="Python.HT40_24_Panel_State" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.HT40_24_Panel_State" />
+        <item itemvalue="Python.HT20_24_Panel_State" />
+        <item itemvalue="Python.CCK_24_Panel_State" />
+=======
       <item itemvalue="Python.ArgParse" />
       <item itemvalue="Python.TX_attempt7_with_method" />
       <item itemvalue="Python.TX_attempt7_with_method_with_args" />
@@ -243,6 +402,7 @@
         <item itemvalue="Python.TX_attempt7_with_method_with_args" />
         <item itemvalue="Python.ArgParse" />
         <item itemvalue="Python.TX_attempt7_with_method" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         <item itemvalue="Python.TX_attempt6" />
         <item itemvalue="Python.TX_attempt5" />
       </list>
@@ -270,15 +430,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="3353" y="-43" width="1550" height="848" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2947786" />
+=======
+<<<<<<< HEAD
+    <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27027026" />
+=======
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26966292" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
+>>>>>>> 4b6bad6aefc19588c2ace4a30a74f201c01fbe20
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47520185" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3307766" />
+=======
       <window_info anchor="bottom" id="Run" order="2" weight="0.47486034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32960895" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -448,10 +626,149 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/15dBm_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15dBm_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="119" column="50" lean-forward="true" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CH1_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CH11_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="104" column="42" lean-forward="true" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CH36_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CH100_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain0_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain0_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="160" column="58" selection-start-line="160" selection-start-column="58" selection-end-line="160" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain01_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain01_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="115" column="67" lean-forward="true" selection-start-line="115" selection-start-column="67" selection-end-line="115" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain1_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain1_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT20MCS0_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="89" column="46" lean-forward="true" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT20MCS7_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT20MCS7_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VHT80_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT40_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT20_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10dBm_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="154" column="47" selection-start-line="154" selection-start-column="47" selection-end-line="154" selection-end-column="47" />
+=======
     <entry file="file://$PROJECT_DIR$/TX_attempt6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="81" selection-start-line="81" selection-start-column="2" selection-end-line="83" selection-end-column="69" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
+>>>>>>> 4b6bad6aefc19588c2ace4a30a74f201c01fbe20
         </state>
       </provider>
     </entry>
@@ -464,8 +781,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TX_attempt7_with_method.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="578">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10dBm_5_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT20MCS0_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCK_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="142" column="8" lean-forward="true" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT20_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT40_24_Panel_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+=======
         <state relative-caret-position="145">
           <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
+>>>>>>> 4b6bad6aefc19588c2ace4a30a74f201c01fbe20
         </state>
       </provider>
     </entry>

@@ -44,7 +44,11 @@ parser.add_argument('flags', type=encodeString, help='parameter value for flags'
 
 args = parser.parse_args()
 
-print(args.txPattern, args.flags)
+print("debug for parameters passed")
+print(args.phyRFMode,args.phyId, args.channel, args.txMode, args.wlanMode, args.bandwidth, args.txPower0,
+    args.tpcm, args.rateBitIndex0, args.enANI, args.scramblerOff, args.aifsn, args.agg,
+    args.dutyCycle, args.pktLen0, args.antenna, args.txChain0, args.broadcast, args.shortGuard, args.numPackets,
+    args.txPattern, args.flags)
 
 #change the directiotory to the location of the DLL
 #I suggest installing QDART and pointing to the native directory

@@ -35,8 +35,9 @@ com_port_auto=ctypes.c_int(0xFFFF)
 # handle = lib.QLIB_ConnectServer(iComPort)
 handle = lib.QLIB_ConnectServerWithWait(iComPort, iWait_ms)
 gResourceContext = HANDLE(handle)
-time.sleep(3)
 print('wait for connection 5s')
+time.sleep(3)
+
 #################################################################################################
 
 #Set the WLAN module type if not called assumes a wrong module
@@ -57,10 +58,7 @@ lib.QLIB_FTM_WLAN_Atheros_LoadDUT(gResourceContext, dllID, bin_file,iNVMem, chip
 
 # ################################################################################################
 #start tx
-#phyId create
-# OP2_SETCHIP = ctypes.c_uint(200)
-# lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP2_SETCHIP)
-# lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
+
 #phyRFMode create
 OP2_SETPHYRFMODE = ctypes.c_uint(169)
 lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP2_SETPHYRFMODE)
@@ -76,14 +74,9 @@ pDphyId = ctypes.create_string_buffer(b'0')
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKphyId, pDphyId)
 lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
 
-#OP_TX
-# OP_TX = ctypes.c_uint(1)
-# lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP_TX)
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKphyId, pDphyId)
-
 #channel
 pKchannel = ctypes.create_string_buffer(b'channel')
-pDchannel = ctypes.create_string_buffer(b'5170')
+pDchannel = ctypes.create_string_buffer(b'2412')
 #2412, 5170, 5500, 5900
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKchannel, pDchannel)
 
@@ -94,18 +87,8 @@ lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKtxMode, pDtxMode)
 
 #wlanMode
 pKwlanMode = ctypes.create_string_buffer(b'wlanMode')
-pDwlanMode = ctypes.create_string_buffer(b'5')
+pDwlanMode = ctypes.create_string_buffer(b'4')
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKwlanMode, pDwlanMode)
-
-# #rateBitIndex0
-# pKrateBitIndex0 = ctypes.create_string_buffer(b'rateBitIndex0')
-# pDrateBitIndex0 = ctypes.create_string_buffer(b'16')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKrateBitIndex0, pDrateBitIndex0)
-
-# #wlanMode
-# pKwlanMode = ctypes.create_string_buffer(b'wlanMode')
-# pDwlanMode = ctypes.create_string_buffer(b'5')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKwlanMode, pDwlanMode)
 
 #bandwidth
 pKbandwidth = ctypes.create_string_buffer(b'bandwidth')
@@ -114,7 +97,7 @@ lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKbandwidth, pDbandwidth)
 
 #txPower0
 pKtxPower0 = ctypes.create_string_buffer(b'txPower0')
-pDtxPower0 = ctypes.create_string_buffer(b'10')
+pDtxPower0 = ctypes.create_string_buffer(b'15')
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKtxPower0, pDtxPower0)
 
 #tpcm
@@ -124,7 +107,7 @@ lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKtpcm, pDtpcm)
 
 #rateBitIndex0
 pKrateBitIndex0 = ctypes.create_string_buffer(b'rateBitIndex0')
-pDrateBitIndex0 = ctypes.create_string_buffer(b'17')
+pDrateBitIndex0 = ctypes.create_string_buffer(b'0')
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKrateBitIndex0, pDrateBitIndex0)
 
 #enANI
@@ -192,27 +175,11 @@ pKflags = ctypes.create_string_buffer(b'flags')
 pDflags = ctypes.create_string_buffer(b'28')
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKflags, pDflags)
 
-
-# #gainIdx
-# pKgainIdx = ctypes.create_string_buffer(b'gainIdx')
-# pDgainIdx = ctypes.create_string_buffer(b'5')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKgainIdx, pDgainIdx)
-#
-# #dacGain
-# pKdacGain = ctypes.create_string_buffer(b'dacGain')
-# pDdacGain = ctypes.create_string_buffer(b'0')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKdacGain, pDdacGain)
-#
-# #paConfig
-# pKpaConfig = ctypes.create_string_buffer(b'paConfig')
-# pDpaConfig = ctypes.create_string_buffer(b'1')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKpaConfig, pDpaConfig)
-
 lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
 
-
-time.sleep(5)
 print('wait to disconnect 5s')
+time.sleep(5)
+
 #close all connections
 lib.QLIB_DisconnectAllServers()
 

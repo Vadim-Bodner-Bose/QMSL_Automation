@@ -6,6 +6,19 @@ from argparse import *
 os.chdir('C:\\Program Files (x86)\\Qualcomm\\QDART\\bin')
 lib = ctypes.CDLL('QMSL_MSVC10R')
 
+############################################################################################
+
+def addParam(gResourceContext, pKeyNullStr, pDataNullStr):
+    #pass the pkeyNullStr and pDataNullStr as a byte object - Example: b'phyRFMode' for pKeyNullStr
+    # b'0' for pDataNullStr
+    #the pkeyNullStr MUST correspond the official pKey name used in QRCT4
+    #make yourself familiar with debug scripts from the QRCT4 tool first.
+    pKey = ctypes.create_string_buffer(pKeyNullStr)
+    pData = ctypes.create_string_buffer(pDataNullStr)
+    lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKey, pData)
+
+############################################################################################
+
 #delcare a char array
 libVersion = ctypes.create_string_buffer(b"",25)
 #pass a char array to a function by reference (via a pointer)
@@ -23,7 +36,6 @@ libMode.value
 
 #APQ = 1
 targetType = ctypes.c_uint8(1)
-#targetType = ctypes.c_wchar_p(1)
 #targetType = ctypes.create_string_buffer(b"1")
 lib.QLIB_SetTargetType(targetType)
 
@@ -44,11 +56,9 @@ eModuletype = ctypes.c_uint32(1)
 lib.QLIB_FTM_WLAN_SetModuleType(gResourceContext, eModuletype)
 
 #try creating string_buffer and pass byref
-#dllID = ctypes.c_wchar_p('qc6180')
 dllID = ctypes.create_string_buffer(b"qc6180")
 chipID = ctypes.c_uint(255)
 #try creating string_buffer and pass byref
-#bin_file = ctypes.c_wchar_p('C:\\Qualcomm\\WCN\\ProdTests\\refDesigns\\BoardData\\fakeBoardData_AR6180.bin')
 bin_file = ctypes.create_string_buffer(b"C:\\Qualcomm\\WCN\\ProdTests\\refDesigns\\BoardData\\fakeBoardData_AR6180.bin")
 iNVMem = ctypes.c_int(5)
 # the call below should return 1 if returns zero, load is not successfull
@@ -57,33 +67,27 @@ lib.QLIB_FTM_WLAN_Atheros_LoadDUT(gResourceContext, dllID, bin_file,iNVMem, chip
 
 # ################################################################################################
 #start tx
-#phyId create
-# OP2_SETCHIP = ctypes.c_uint(200)
-# lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP2_SETCHIP)
-# lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
+
 #phyRFMode create
 OP2_SETPHYRFMODE = ctypes.c_uint(169)
 lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP2_SETPHYRFMODE)
-pKphyRFMode = ctypes.create_string_buffer(b'phyRFMode')
-pDphyRFMode = ctypes.create_string_buffer(b'0')
-lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKphyRFMode, pDphyRFMode)
+# pKphyRFMode = ctypes.create_string_buffer(b'phyRFMode')
+# pDphyRFMode = ctypes.create_string_buffer(b'0')
+# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKphyRFMode, pDphyRFMode)
+addParam(gResourceContext, b'phyRFMode', b'0' )
 lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
 
 OP2_SYNC = ctypes.c_uint(114)
 lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP2_SYNC)
-pKphyId = ctypes.create_string_buffer(b'phyId')
-pDphyId = ctypes.create_string_buffer(b'0')
-lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKphyId, pDphyId)
-lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
-
-#OP_TX
-# OP_TX = ctypes.c_uint(1)
-# lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP_TX)
+# pKphyId = ctypes.create_string_buffer(b'phyId')
+# pDphyId = ctypes.create_string_buffer(b'0')
 # lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKphyId, pDphyId)
-
+addParam(gResourceContext, b'phyId', b'0')
+lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
+##################################################################################################
 #channel
 pKchannel = ctypes.create_string_buffer(b'channel')
-pDchannel = ctypes.create_string_buffer(b'5170')
+pDchannel = ctypes.create_string_buffer(b'2437')
 #2412, 5170, 5500, 5900
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKchannel, pDchannel)
 
@@ -96,16 +100,6 @@ lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKtxMode, pDtxMode)
 pKwlanMode = ctypes.create_string_buffer(b'wlanMode')
 pDwlanMode = ctypes.create_string_buffer(b'5')
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKwlanMode, pDwlanMode)
-
-# #rateBitIndex0
-# pKrateBitIndex0 = ctypes.create_string_buffer(b'rateBitIndex0')
-# pDrateBitIndex0 = ctypes.create_string_buffer(b'16')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKrateBitIndex0, pDrateBitIndex0)
-
-# #wlanMode
-# pKwlanMode = ctypes.create_string_buffer(b'wlanMode')
-# pDwlanMode = ctypes.create_string_buffer(b'5')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKwlanMode, pDwlanMode)
 
 #bandwidth
 pKbandwidth = ctypes.create_string_buffer(b'bandwidth')
@@ -191,22 +185,6 @@ lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKtxPattern, pDtxPattern)
 pKflags = ctypes.create_string_buffer(b'flags')
 pDflags = ctypes.create_string_buffer(b'28')
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKflags, pDflags)
-
-
-# #gainIdx
-# pKgainIdx = ctypes.create_string_buffer(b'gainIdx')
-# pDgainIdx = ctypes.create_string_buffer(b'5')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKgainIdx, pDgainIdx)
-#
-# #dacGain
-# pKdacGain = ctypes.create_string_buffer(b'dacGain')
-# pDdacGain = ctypes.create_string_buffer(b'0')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKdacGain, pDdacGain)
-#
-# #paConfig
-# pKpaConfig = ctypes.create_string_buffer(b'paConfig')
-# pDpaConfig = ctypes.create_string_buffer(b'1')
-# lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKpaConfig, pDpaConfig)
 
 lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
 

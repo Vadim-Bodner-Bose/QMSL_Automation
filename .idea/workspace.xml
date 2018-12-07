@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172f52c1-3ec2-4739-b77d-30e63ba175fe" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/TX_attempt7_with_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TX_attempt7_with_method_with_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QMSL_TX_diag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QMSL_TX_diag.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TX_attempt6.py" beforeDir="false" afterPath="$PROJECT_DIR$/TX_attempt6.py" afterDir="false" />
     </list>
@@ -15,6 +22,7 @@
     <session id="1237137639">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="27" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="18" />
@@ -22,34 +30,62 @@
           <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="27" />
+=======
+          <entry key="project.closed" value="24" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.3" value="15" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="24" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="Python Console" value="1815" />
           <entry key="py" value="1022" />
+=======
+          <entry key="Python Console" value="1957" />
+          <entry key="py" value="2963" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
           <entry key="txt" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="105" />
+<<<<<<< HEAD
           <entry key="Python" value="2837" />
+=======
+          <entry key="Python" value="4920" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="py" value="44" />
+=======
+          <entry key="py" value="15" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="Python" value="44" />
+=======
+          <entry key="Python" value="15" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCK_24_Panel_State.py">
@@ -79,6 +115,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,6 +137,7 @@
         <option value="$PROJECT_DIR$/TX_attempt3.py" />
         <option value="$PROJECT_DIR$/TX_attempt4.py" />
         <option value="$PROJECT_DIR$/TX_attempt5.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/10dBm_5_Panel_State.py" />
         <option value="$PROJECT_DIR$/10dBm_24_Panel_State.py" />
         <option value="$PROJECT_DIR$/15dBm_5_Panel_State.py" />
@@ -122,15 +162,28 @@
         <option value="$PROJECT_DIR$/HT40_24_Panel_State.py" />
         <option value="$PROJECT_DIR$/VHT80_5_Panel_State.py" />
         <option value="$PROJECT_DIR$/HT40_5_Panel_State.py" />
+=======
+        <option value="$PROJECT_DIR$/FTM_TLV2_AddParam.py" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         <option value="$PROJECT_DIR$/TX_attempt6.py" />
+        <option value="$PROJECT_DIR$/TX_attempt7_with_method.py" />
+        <option value="$PROJECT_DIR$/ArgParse.py" />
+        <option value="$PROJECT_DIR$/TX_attempt7_with_method_with_args.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="2198" />
     <option name="y" value="6" />
     <option name="width" value="933" />
     <option name="height" value="848" />
+=======
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1060" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,6 +205,10 @@
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vb1016982\PycharmProjects\QMSL_TX_diag" />
@@ -169,8 +226,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.HT40_24_Panel_State">
     <configuration name="CCK_24_Panel_State" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.TX_attempt7_with_method_with_args">
+    <configuration name="ArgParse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <module name="QMSL_TX_diag" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,8 +244,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCK_24_Panel_State.py" />
       <option name="PARAMETERS" value="" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ArgParse.py" />
+      <option name="PARAMETERS" value="0 0 2437 3 5 0 10 0 17 0 0 0 0 50 200 0 3 0 0 0 4 28" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -191,49 +258,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="HT20_24_Panel_State" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="QMSL_TX_diag" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HT20_24_Panel_State.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="HT40_24_Panel_State" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="QMSL_TX_diag" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HT40_24_Panel_State.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+=======
     <configuration name="TX_attempt5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <module name="QMSL_TX_diag" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,7 +274,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HT20_24_Panel_State.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TX_attempt5.py" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +287,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="HT40_24_Panel_State" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
     <configuration name="TX_attempt6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <module name="QMSL_TX_diag" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,8 +303,54 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HT40_24_Panel_State.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TX_attempt6.py" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TX_attempt7_with_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="QMSL_TX_diag" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TX_attempt7_with_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TX_attempt7_with_method_with_args" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="QMSL_TX_diag" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TX_attempt7_with_method_with_args.py" />
+      <option name="PARAMETERS" value="0 0 2437 3 5 0 10 0 17 0 0 0 0 50 200 0 3 0 0 0 4 28" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -278,6 +361,7 @@
     <list>
       <item itemvalue="Python.TX_attempt5" />
       <item itemvalue="Python.TX_attempt6" />
+<<<<<<< HEAD
       <item itemvalue="Python.CCK_24_Panel_State" />
       <item itemvalue="Python.HT20_24_Panel_State" />
       <item itemvalue="Python.HT40_24_Panel_State" />
@@ -287,6 +371,17 @@
         <item itemvalue="Python.HT40_24_Panel_State" />
         <item itemvalue="Python.HT20_24_Panel_State" />
         <item itemvalue="Python.CCK_24_Panel_State" />
+=======
+      <item itemvalue="Python.ArgParse" />
+      <item itemvalue="Python.TX_attempt7_with_method" />
+      <item itemvalue="Python.TX_attempt7_with_method_with_args" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.TX_attempt7_with_method_with_args" />
+        <item itemvalue="Python.ArgParse" />
+        <item itemvalue="Python.TX_attempt7_with_method" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         <item itemvalue="Python.TX_attempt6" />
         <item itemvalue="Python.TX_attempt5" />
       </list>
@@ -314,23 +409,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27027026" />
+=======
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26966292" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.47520185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3307766" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47486034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32960895" />
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27325025" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27234638" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.2733564" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.27234638" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,6 +462,21 @@
           <line>53</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TX_attempt7_with_method_with_args.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TX_attempt7_with_method_with_args.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TX_attempt7_with_method_with_args.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -366,11 +487,34 @@
         <watch expression="iComPort" language="Python" />
         <watch expression="gResourceContext" language="Python" />
         <watch expression="handle" language="Python" />
+        <watch expression="args.channel" language="Python" />
+        <watch expression="args.txMode" language="Python" />
+        <watch expression="args.wlanMode" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>args.wlanMode</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>args.txMode</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>args.</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>args.channel</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>handle</expression-string>
         <language-id>Python</language-id>
@@ -399,13 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python36/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/Stop_TX.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -434,6 +572,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/15dBm_5_Panel_State.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -564,11 +703,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
           <caret line="154" column="47" selection-start-line="154" selection-start-column="47" selection-end-line="154" selection-end-column="47" />
+=======
+    <entry file="file://$PROJECT_DIR$/TX_attempt6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="81" selection-start-line="81" selection-start-column="2" selection-end-line="83" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TX_attempt6.py">
+    <entry file="file://$PROJECT_DIR$/FTM_TLV2_AddParam.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="8" selection-end-column="66" />
+          <folding>
+            <marker date="1544104747464" expanded="true" signature="335:336" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TX_attempt7_with_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="578">
           <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
         </state>
@@ -606,6 +765,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+=======
+        <state relative-caret-position="145">
+          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+>>>>>>> ec2d6e8474b0b7b921739f0ee80eaf5886036c21
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TX_attempt7_with_method_with_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArgParse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <marker date="1544122670959" expanded="true" signature="309:530" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

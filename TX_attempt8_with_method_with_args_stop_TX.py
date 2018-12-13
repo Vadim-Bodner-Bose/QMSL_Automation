@@ -98,8 +98,8 @@ com_port_auto=ctypes.c_int(0xFFFF)
 # handle = lib.QLIB_ConnectServer(iComPort)
 handle = lib.QLIB_ConnectServerWithWait(iComPort, iWait_ms)
 gResourceContext = HANDLE(handle)
-time.sleep(3)
-print('wait for connection 5s')
+# time.sleep(3)
+# print('wait for connection 5s')
 #################################################################################################
 
 #Set the WLAN module type if not called assumes a wrong module
@@ -124,7 +124,7 @@ lib.QLIB_FTM_WLAN_TLV2_Create(gResourceContext, OP_TX)
 addParam(gResourceContext, b'phyId', b'0')
 addParam(gResourceContext, b'stopTx', b'1')
 lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
-
+time.sleep(2)
 # ################################################################################################
 #start tx
 
@@ -272,8 +272,9 @@ lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
 #####################################################################################
 #unload dll
 lib. QLIB_FTM_WLAN_Atheros_UNLoadDUT(gResourceContext)
-print('wait to disconnect 5s')
-time.sleep(5)
+print('QPST Disconnected, DUT unloaded, ready for the next test')
+# print('wait to disconnect 5s')
+# time.sleep(5)
 #close all connections
 lib.QLIB_DisconnectAllServers()
 

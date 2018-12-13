@@ -107,7 +107,7 @@ lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKtpcm, pDtpcm)
 
 #rateBitIndex0
 pKrateBitIndex0 = ctypes.create_string_buffer(b'rateBitIndex0')
-pDrateBitIndex0 = ctypes.create_string_buffer(b'17')
+pDrateBitIndex0 = ctypes.create_string_buffer(b'16')
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKrateBitIndex0, pDrateBitIndex0)
 
 #enANI

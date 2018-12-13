@@ -15,6 +15,9 @@ lib.QLIB_GetLibraryVersion(ctypes.byref(libVersion))
 
 #QPST is the library mode = true
 libMode = ctypes.c_uint8(1)
+
+
+
 #libMode = ctypes.c_wchar_p('true')
 #libMode = ctypes.create_string_buffer(b"true")
 #libMode = ctypes.create_string_buffer(b"TRUE")
@@ -107,7 +110,7 @@ lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKtpcm, pDtpcm)
 
 #rateBitIndex0
 pKrateBitIndex0 = ctypes.create_string_buffer(b'rateBitIndex0')
-pDrateBitIndex0 = ctypes.create_string_buffer(b'17')
+pDrateBitIndex0 = ctypes.create_string_buffer(b'0')
 lib.QLIB_FTM_WLAN_TLV2_AddParam(gResourceContext, pKrateBitIndex0, pDrateBitIndex0)
 
 #enANI
@@ -179,6 +182,9 @@ lib.QLIB_FTM_WLAN_TLV2_Complete(gResourceContext)
 
 print('wait to disconnect 5s')
 time.sleep(5)
+
+#unload dll
+lib. QLIB_FTM_WLAN_Atheros_UNLoadDUT(gResourceContext)
 
 #close all connections
 lib.QLIB_DisconnectAllServers()
